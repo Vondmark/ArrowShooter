@@ -1,0 +1,619 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D3EDF492329A3F0004F78F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3EDF482329A3F0004F78F8 /* AppDelegate.swift */; };
+		4D3EDF4B2329A3F0004F78F8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EDF4A2329A3F0004F78F8 /* GameScene.sks */; };
+		4D3EDF4D2329A3F0004F78F8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EDF4C2329A3F0004F78F8 /* Actions.sks */; };
+		4D3EDF4F2329A3F0004F78F8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3EDF4E2329A3F0004F78F8 /* GameScene.swift */; };
+		4D3EDF512329A3F0004F78F8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3EDF502329A3F0004F78F8 /* GameViewController.swift */; };
+		4D3EDF542329A3F0004F78F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EDF522329A3F0004F78F8 /* Main.storyboard */; };
+		4D3EDF562329A3F1004F78F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EDF552329A3F1004F78F8 /* Assets.xcassets */; };
+		4D3EDF592329A3F1004F78F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EDF572329A3F1004F78F8 /* LaunchScreen.storyboard */; };
+		4D3EDF642329A3F1004F78F8 /* ArrowShooterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3EDF632329A3F1004F78F8 /* ArrowShooterTests.swift */; };
+		4D3EDF6F2329A3F2004F78F8 /* ArrowShooterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D3EDF6E2329A3F2004F78F8 /* ArrowShooterUITests.swift */; };
+		4D3EDF7D2329A590004F78F8 /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EDF7C2329A590004F78F8 /* MyParticle.sks */; };
+		4D3EDF7F2329A60D004F78F8 /* plusScore.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EDF7E2329A60D004F78F8 /* plusScore.sks */; };
+		4D3EDF812329A61E004F78F8 /* hit.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EDF802329A61E004F78F8 /* hit.sks */; };
+		4D3EDF832329A637004F78F8 /* arrowHit.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4D3EDF822329A637004F78F8 /* arrowHit.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D3EDF602329A3F1004F78F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3EDF3D2329A3F0004F78F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3EDF442329A3F0004F78F8;
+			remoteInfo = ArrowShooter;
+		};
+		4D3EDF6B2329A3F1004F78F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D3EDF3D2329A3F0004F78F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D3EDF442329A3F0004F78F8;
+			remoteInfo = ArrowShooter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D3EDF452329A3F0004F78F8 /* ArrowShooter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArrowShooter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3EDF482329A3F0004F78F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4D3EDF4A2329A3F0004F78F8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		4D3EDF4C2329A3F0004F78F8 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		4D3EDF4E2329A3F0004F78F8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		4D3EDF502329A3F0004F78F8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		4D3EDF532329A3F0004F78F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D3EDF552329A3F1004F78F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4D3EDF582329A3F1004F78F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4D3EDF5A2329A3F1004F78F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3EDF5F2329A3F1004F78F8 /* ArrowShooterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrowShooterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3EDF632329A3F1004F78F8 /* ArrowShooterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowShooterTests.swift; sourceTree = "<group>"; };
+		4D3EDF652329A3F1004F78F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3EDF6A2329A3F1004F78F8 /* ArrowShooterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArrowShooterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D3EDF6E2329A3F2004F78F8 /* ArrowShooterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrowShooterUITests.swift; sourceTree = "<group>"; };
+		4D3EDF702329A3F2004F78F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D3EDF7C2329A590004F78F8 /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		4D3EDF7E2329A60D004F78F8 /* plusScore.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = plusScore.sks; sourceTree = "<group>"; };
+		4D3EDF802329A61E004F78F8 /* hit.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = hit.sks; sourceTree = "<group>"; };
+		4D3EDF822329A637004F78F8 /* arrowHit.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = arrowHit.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D3EDF422329A3F0004F78F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3EDF5C2329A3F1004F78F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3EDF672329A3F1004F78F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D3EDF3C2329A3F0004F78F8 = {
+			isa = PBXGroup;
+			children = (
+				4D3EDF472329A3F0004F78F8 /* ArrowShooter */,
+				4D3EDF622329A3F1004F78F8 /* ArrowShooterTests */,
+				4D3EDF6D2329A3F1004F78F8 /* ArrowShooterUITests */,
+				4D3EDF462329A3F0004F78F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D3EDF462329A3F0004F78F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D3EDF452329A3F0004F78F8 /* ArrowShooter.app */,
+				4D3EDF5F2329A3F1004F78F8 /* ArrowShooterTests.xctest */,
+				4D3EDF6A2329A3F1004F78F8 /* ArrowShooterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D3EDF472329A3F0004F78F8 /* ArrowShooter */ = {
+			isa = PBXGroup;
+			children = (
+				4D3EDF482329A3F0004F78F8 /* AppDelegate.swift */,
+				4D3EDF4A2329A3F0004F78F8 /* GameScene.sks */,
+				4D3EDF4C2329A3F0004F78F8 /* Actions.sks */,
+				4D3EDF4E2329A3F0004F78F8 /* GameScene.swift */,
+				4D3EDF502329A3F0004F78F8 /* GameViewController.swift */,
+				4D3EDF522329A3F0004F78F8 /* Main.storyboard */,
+				4D3EDF552329A3F1004F78F8 /* Assets.xcassets */,
+				4D3EDF7C2329A590004F78F8 /* MyParticle.sks */,
+				4D3EDF572329A3F1004F78F8 /* LaunchScreen.storyboard */,
+				4D3EDF5A2329A3F1004F78F8 /* Info.plist */,
+				4D3EDF7E2329A60D004F78F8 /* plusScore.sks */,
+				4D3EDF802329A61E004F78F8 /* hit.sks */,
+				4D3EDF822329A637004F78F8 /* arrowHit.sks */,
+			);
+			path = ArrowShooter;
+			sourceTree = "<group>";
+		};
+		4D3EDF622329A3F1004F78F8 /* ArrowShooterTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D3EDF632329A3F1004F78F8 /* ArrowShooterTests.swift */,
+				4D3EDF652329A3F1004F78F8 /* Info.plist */,
+			);
+			path = ArrowShooterTests;
+			sourceTree = "<group>";
+		};
+		4D3EDF6D2329A3F1004F78F8 /* ArrowShooterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4D3EDF6E2329A3F2004F78F8 /* ArrowShooterUITests.swift */,
+				4D3EDF702329A3F2004F78F8 /* Info.plist */,
+			);
+			path = ArrowShooterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D3EDF442329A3F0004F78F8 /* ArrowShooter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3EDF732329A3F2004F78F8 /* Build configuration list for PBXNativeTarget "ArrowShooter" */;
+			buildPhases = (
+				4D3EDF412329A3F0004F78F8 /* Sources */,
+				4D3EDF422329A3F0004F78F8 /* Frameworks */,
+				4D3EDF432329A3F0004F78F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArrowShooter;
+			productName = ArrowShooter;
+			productReference = 4D3EDF452329A3F0004F78F8 /* ArrowShooter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D3EDF5E2329A3F1004F78F8 /* ArrowShooterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3EDF762329A3F2004F78F8 /* Build configuration list for PBXNativeTarget "ArrowShooterTests" */;
+			buildPhases = (
+				4D3EDF5B2329A3F1004F78F8 /* Sources */,
+				4D3EDF5C2329A3F1004F78F8 /* Frameworks */,
+				4D3EDF5D2329A3F1004F78F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3EDF612329A3F1004F78F8 /* PBXTargetDependency */,
+			);
+			name = ArrowShooterTests;
+			productName = ArrowShooterTests;
+			productReference = 4D3EDF5F2329A3F1004F78F8 /* ArrowShooterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4D3EDF692329A3F1004F78F8 /* ArrowShooterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D3EDF792329A3F2004F78F8 /* Build configuration list for PBXNativeTarget "ArrowShooterUITests" */;
+			buildPhases = (
+				4D3EDF662329A3F1004F78F8 /* Sources */,
+				4D3EDF672329A3F1004F78F8 /* Frameworks */,
+				4D3EDF682329A3F1004F78F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D3EDF6C2329A3F1004F78F8 /* PBXTargetDependency */,
+			);
+			name = ArrowShooterUITests;
+			productName = ArrowShooterUITests;
+			productReference = 4D3EDF6A2329A3F1004F78F8 /* ArrowShooterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D3EDF3D2329A3F0004F78F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Mark;
+				TargetAttributes = {
+					4D3EDF442329A3F0004F78F8 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					4D3EDF5E2329A3F1004F78F8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4D3EDF442329A3F0004F78F8;
+					};
+					4D3EDF692329A3F1004F78F8 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 4D3EDF442329A3F0004F78F8;
+					};
+				};
+			};
+			buildConfigurationList = 4D3EDF402329A3F0004F78F8 /* Build configuration list for PBXProject "ArrowShooter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D3EDF3C2329A3F0004F78F8;
+			productRefGroup = 4D3EDF462329A3F0004F78F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D3EDF442329A3F0004F78F8 /* ArrowShooter */,
+				4D3EDF5E2329A3F1004F78F8 /* ArrowShooterTests */,
+				4D3EDF692329A3F1004F78F8 /* ArrowShooterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D3EDF432329A3F0004F78F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3EDF542329A3F0004F78F8 /* Main.storyboard in Resources */,
+				4D3EDF832329A637004F78F8 /* arrowHit.sks in Resources */,
+				4D3EDF7D2329A590004F78F8 /* MyParticle.sks in Resources */,
+				4D3EDF4B2329A3F0004F78F8 /* GameScene.sks in Resources */,
+				4D3EDF812329A61E004F78F8 /* hit.sks in Resources */,
+				4D3EDF562329A3F1004F78F8 /* Assets.xcassets in Resources */,
+				4D3EDF7F2329A60D004F78F8 /* plusScore.sks in Resources */,
+				4D3EDF592329A3F1004F78F8 /* LaunchScreen.storyboard in Resources */,
+				4D3EDF4D2329A3F0004F78F8 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3EDF5D2329A3F1004F78F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3EDF682329A3F1004F78F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D3EDF412329A3F0004F78F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3EDF4F2329A3F0004F78F8 /* GameScene.swift in Sources */,
+				4D3EDF512329A3F0004F78F8 /* GameViewController.swift in Sources */,
+				4D3EDF492329A3F0004F78F8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3EDF5B2329A3F1004F78F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3EDF642329A3F1004F78F8 /* ArrowShooterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D3EDF662329A3F1004F78F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D3EDF6F2329A3F2004F78F8 /* ArrowShooterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D3EDF612329A3F1004F78F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D3EDF442329A3F0004F78F8 /* ArrowShooter */;
+			targetProxy = 4D3EDF602329A3F1004F78F8 /* PBXContainerItemProxy */;
+		};
+		4D3EDF6C2329A3F1004F78F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D3EDF442329A3F0004F78F8 /* ArrowShooter */;
+			targetProxy = 4D3EDF6B2329A3F1004F78F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D3EDF522329A3F0004F78F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3EDF532329A3F0004F78F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D3EDF572329A3F1004F78F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D3EDF582329A3F1004F78F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D3EDF712329A3F2004F78F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4D3EDF722329A3F2004F78F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D3EDF742329A3F2004F78F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA52WKJXH6;
+				INFOPLIST_FILE = ArrowShooter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MK.ArrowShooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		4D3EDF752329A3F2004F78F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA52WKJXH6;
+				INFOPLIST_FILE = ArrowShooter/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MK.ArrowShooter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		4D3EDF772329A3F2004F78F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA52WKJXH6;
+				INFOPLIST_FILE = ArrowShooterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MK.ArrowShooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArrowShooter.app/ArrowShooter";
+			};
+			name = Debug;
+		};
+		4D3EDF782329A3F2004F78F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA52WKJXH6;
+				INFOPLIST_FILE = ArrowShooterTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MK.ArrowShooterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArrowShooter.app/ArrowShooter";
+			};
+			name = Release;
+		};
+		4D3EDF7A2329A3F2004F78F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA52WKJXH6;
+				INFOPLIST_FILE = ArrowShooterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MK.ArrowShooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArrowShooter;
+			};
+			name = Debug;
+		};
+		4D3EDF7B2329A3F2004F78F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SA52WKJXH6;
+				INFOPLIST_FILE = ArrowShooterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MK.ArrowShooterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ArrowShooter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D3EDF402329A3F0004F78F8 /* Build configuration list for PBXProject "ArrowShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3EDF712329A3F2004F78F8 /* Debug */,
+				4D3EDF722329A3F2004F78F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3EDF732329A3F2004F78F8 /* Build configuration list for PBXNativeTarget "ArrowShooter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3EDF742329A3F2004F78F8 /* Debug */,
+				4D3EDF752329A3F2004F78F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3EDF762329A3F2004F78F8 /* Build configuration list for PBXNativeTarget "ArrowShooterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3EDF772329A3F2004F78F8 /* Debug */,
+				4D3EDF782329A3F2004F78F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D3EDF792329A3F2004F78F8 /* Build configuration list for PBXNativeTarget "ArrowShooterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D3EDF7A2329A3F2004F78F8 /* Debug */,
+				4D3EDF7B2329A3F2004F78F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D3EDF3D2329A3F0004F78F8 /* Project object */;
+}
